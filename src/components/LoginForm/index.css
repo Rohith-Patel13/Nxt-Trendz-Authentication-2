@@ -1,0 +1,39 @@
+/* Write your CSS code here */
+/* Write your CSS code here */
+* {
+  font-family: Roboto;
+}
+.loginBg {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.websiteLogoStyle {
+  height: 80px;
+  width: 350px;
+  margin-bottom: 1rem;
+}
+
+.websiteLoginStyle {
+  height: 250px;
+  width: 420px;
+  margin-bottom: 1rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-button {
+  cursor: pointer;
+}
+
+.errText {
+  color: #ff0b37;
+}
